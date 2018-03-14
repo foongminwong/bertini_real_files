@@ -1,0 +1,4 @@
+Command to remember:
+1. bertini
+2. nohup bertini_real -sphere sphere -pi pi & (RUN IN BACKGROUND)
+3. nohup sampler -cyclenum 3 -tol 0.025 -minits 3 -maxits 8 maxribs 35 &
