@@ -1,5 +1,4 @@
 Student-Faculty Research Project: 3D Printed Gallery of Algebraic Surfaces
-Fall 2017 - Spring 2018
 
 •	Work with Dr.Dani Brake and another student (David Bachmeier) on how to compute 3D mathematical models using numerical algebraic software Bertini_real (with Matlab)
 
@@ -8,3 +7,5 @@ Fall 2017 - Spring 2018
 •	Schedule math surface decomposition jobs on Blugold Supercomputing Cluster using PuTTY
 
 The software can be found on: https://github.com/ofloveandhate/bertini_real
+
+- Fall 2017 - Spring 2018
