@@ -1,0 +1,47 @@
+CONFIG
+
+randomseed: 411;
+tracktype: 1;
+securitymaxnorm: 1e19;
+securitylevel: 1;
+
+tracktolbeforeeg: 1e-12;
+tracktolduringeg: 1e-13;
+slicetolbeforeeg: 1e-12;
+slicetolduringeg: 1e-13;
+
+samplefactor:0.255;
+maxstepsbeforenewton: 0; 
+maxnewtonits: 2;
+
+finaltol: 1e-20; 
+functiontolerance: 1e-15; %function residuals are zero if smaller
+
+sharpendigits: 1500;
+endgamenum: 2; %use the Cauchy endgame
+numsamplepoints: 100; 
+endgamebdry: 1e-4; 
+endpointfinitethreshold:1e300;
+
+odepredictor: 8; % use a higher-order ODE predictor
+targettolmultiplier: 100;
+condnumthreshold: 1e300;
+pathtruncatiobthreshold: 1e300;
+imagthreshold: 1e-15;
+
+ampmaxprec: 3096;
+ampsafetydigits1: 30;
+ampsafetydigits2: 30;
+
+END;
+
+
+INPUT
+
+variable_group x, y, z;
+function f1;
+
+
+f1 = x^4*y^2+y^4*x^2-x^2*y^2+z^6;
+
+END;

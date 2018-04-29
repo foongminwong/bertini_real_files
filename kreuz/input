@@ -1,0 +1,51 @@
+CONFIG
+
+randomseed: 33;
+
+tracktype: 1;
+securitymaxnorm: 1e8;
+securitylevel: 1;
+
+tracktolbeforeeg: 1e-7;
+tracktolduringeg: 1e-7;
+
+maxstepsbeforenewton: 0; 
+maxnewtonits: 2;
+
+finaltol: 1e-12; 
+functiontolerance: 1e-8; 
+
+sharpendigits: 30; 
+
+endgamenum: 2; 
+numsamplepoints: 10; 
+endgamebdry: 0.01; 
+
+odepredictor: 8; 
+targettolmultiplier: 10;
+condnumthreshold: 1e300;
+imagthreshold: 1e-7;
+functiontolerance: 1e-6;
+printpathmodulus: 45;
+
+ampmaxprec: 3096;
+ampsafetydigits1: 30;
+ampsafetydigits2: 30;
+
+pathtruncationthreshold: 1e30;
+endpointfinitethreshold: 1e12;
+
+
+
+END;
+
+
+INPUT
+
+variable_group x, y, z;
+function f1;
+
+
+f1 = x*y*z;
+
+END;

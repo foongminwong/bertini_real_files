@@ -1,0 +1,50 @@
+CONFIG
+
+randomseed: 29;
+
+tracktype: 1;
+
+finaltol: 1e-20;
+
+securitylevel: 1;
+
+ampmaxprec: 3096;
+ampsafetydigits1: 30;
+ampsafetydigits2: 30;
+
+pathtruncationthreshold: 1e300;
+endpointfinitethreshold: 1e300;
+
+sharpendigits: 100;
+endgamebdry: 1e-4;
+endgamenum: 2;
+numsamplepoints: 100;
+
+maxcyclenum: 20;
+maxstepsize: 0.01;
+
+odepredictor: 8;
+condnumthreshold: 1e300;
+targettolmultiplier: 100;
+tracktolbeforeeg: 1e-9;
+tracktolduringeg: 1e-10;
+
+maxnewtonits: 2;
+maxstepsbeforenewton: 0;
+
+imagthreshold: 1e-7;
+
+functiontolerance: 1e-20;
+
+END;
+
+
+INPUT
+
+variable_group x, y, z;
+function f1;
+
+
+f1 = x^2-z;
+
+END;
