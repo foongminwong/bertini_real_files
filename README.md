@@ -5,7 +5,7 @@ Fall 2017 - Spring 2018
 
 •	Learn how to modify, repair, print 3D models using Blender, 3D Builder and Simplify3D
 
-•	Schedule math surface decomposition jobs on Blugold Supercomputing Cluster using PuTTY
+•	Schedule math surface decomposition jobs on Blugold Supercomputing Cluster (BGSC) through PuTTY
 
 The software can be found on: https://github.com/ofloveandhate/bertini_real
 
